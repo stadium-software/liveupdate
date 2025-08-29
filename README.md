@@ -2,18 +2,18 @@
 
 Calls a page script at a regular interval
 
-# Version
+## Version
 1.1
 
-## Change Log
+### Change Log
 1.1 Added update end script
 
-# Setup
+## Setup
 This module consists of two scripts:
 1. "LiveUpdate" to kick off the live update
 2. "LiveUpdateEnd" to stop the live update
 
-## Global Script "LiveUpdate"
+### Global Script "LiveUpdate"
 1. Create a Global Script called "LiveUpdate"
 2. Add the input parameters below to the Global Script
    1. Callback
@@ -61,7 +61,7 @@ window.stopLiveUpdate = function() {
 };
 ```
 
-## Global Script "LiveUpdateEnd"
+### Global Script "LiveUpdateEnd"
 1. Create a Global Script called "LiveUpdate"
 2. Drag a *JavaScript* action into the script
 3. Add the Javascript below unchanged into the JavaScript code property
@@ -83,7 +83,7 @@ window.stopLiveUpdate();
 ## To End the LiveUpdate
 1. Drag the "LiveUpdateEnd" script to the page.unload event handler
 
-# Working with Stadium Repos
+## Working with Stadium Repos
 Stadium Repos are not static. They change as additional features are added and bugs are fixed. Using the right method to work with Stadium Repos allows for upgrading them in a controlled manner. How to use and update application repos is described here 
 
 [Working with Stadium Repos](https://github.com/stadium-software/samples-upgrading)
