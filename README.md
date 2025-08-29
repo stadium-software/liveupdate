@@ -74,13 +74,13 @@ window.stopLiveUpdate();
 1. Add a script under the page and call it anything you like (e.g. GetData)
 2. Add your logic to the script to fetch data and assign it to a control on the page
 
-## Starting the LiveUpdate
+## To Start the LiveUpdate
 1. Drag the "LiveUpdate" script to an event handler
 2. Complete the input parameters
    1. Callback: Add the name for the page script to call (e.g. GetData)
    2. SecondsInterval: The interval in seconds at which the script calls the page script
 
-## Ending the LiveUpdate
+## To End the LiveUpdate
 1. Drag the "LiveUpdateEnd" script to the page.unload event handler
 
 # Working with Stadium Repos
