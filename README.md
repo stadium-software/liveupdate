@@ -3,10 +3,7 @@
 Calls a page script at a regular interval
 
 ## Version
-1.1
-
-### Change Log
-1.1 Added update end script
+1.1 Added end script
 
 ## Setup
 This module consists of two scripts:
